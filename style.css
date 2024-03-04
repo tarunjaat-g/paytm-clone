@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  height: 12vh;
+  align-items: center;
+  padding: 0px 80px;
+  box-shadow: 1px 1px 1px;
+}
+#logo {
+  font-size: 24px;
+}
+#logo > i {
+  color: red;
+}
+#header-content {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 18px;
+}
+#sign-in {
+  display: flex;
+  flex-direction: row;
+}
+#sign-button {
+  background-color: #03baf2;
+  padding: 10px 47px 8px 15px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+#profile {
+  width: 34px;
+  height: 34px;
+  background-color: black;
+  position: absolute;
+  border-radius: 50px;
+  top: 26px;
+  left: 91vw;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  overflow: hidden;
+}
+#profile > i {
+  color: #ffffff;
+  font-size: 24px;
+  border-radius: 50px;
+  margin-top: 5px;
+}
+#nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 40px;
+  background: url(navback.jpeg);
+  border: none;
+  border-radius: 10px;
+  height: 16vh;
+  gap: 20px;
+  /* justify-content: center; */
+  color: white;
+  font-size: 12px;
+}
+#nav-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+#nav-paytm {
+  display: flex;
+  flex-direction: row;
+}
+#Wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+#Wallet > div > i {
+  font-size: 24px;
+}
+#upi-transfer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 5px;
+}
+#app-only-text {
+  font-size: 10px;
+  background-color: black;
+  padding: 0.5px 5px;
+  border-radius: 3px;
+}
+#upi-transfer > #icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#upi-transfer-icon {
+  font-size: 20px;
+}
+#bank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+#bank > div > i {
+  font-size: 24px;
+}
+#passbook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+#passbook > div > i {
+  font-size: 24px;
+}
+#Power-by {
+  font-size: 8px;
+  width: 35px;
+  text-align: end;
+  padding-right: 1px;
+  padding-top: 3px;
+}
+#Payments-bank {
+  font-size: 8px;
+  width: 35px;
+  text-align: end;
+  padding-right: 1px;
+  padding-top: 3px;
+}
+#Paytm-text {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+#bill {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+#bill-text {
+  padding: 0px 30px;
+  font-weight: 700;
+}
+#bill-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12px;
+}
+#bill-content > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 16vw;
+}
+#bill-content > div > div > i {
+  font-size: 24px;
+  color: #07448e;
+}
+hr {
+  margin-top: 30px;
+  color: #e8edf3;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#play {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+#play-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12px;
+}
+#play-content > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 16vw;
+}
+#play-content > div > div > i {
+  font-size: 24px;
+  color: #07448e;
+}
+#play-content > div > .rupee > i {
+  font-size: 12px;
+  color: black;
+}
+#play-text {
+  padding: 0px 30px;
+  font-weight: 700;
+}
+#tickets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+#tickets-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12px;
+}
+#tickets-text {
+  padding: 0px 30px;
+  font-weight: 700;
+}
+#tickets-content > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+#tickets-content > div > div > i {
+  font-size: 24px;
+  color: #07448e;
+}
+#all-service {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+#all-service > div {
+  display: flex;
+  gap: 5px;
+  padding: 8px 20px;
+  border: 0.5px solid #e8edf3;
+  border-radius: 50px;
+  font-size: 12px;
+  color: #02b9f5;
+}
